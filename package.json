@@ -1,0 +1,31 @@
+{
+  "name": "image-to-ipfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "ipfs-api": "^24.0.1",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "now": "npm install && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarmcity/SwarmCityApiMin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swarmcity/SwarmCityApiMin/issues"
+  },
+  "homepage": "https://github.com/swarmcity/SwarmCityApiMin#readme"
+}
